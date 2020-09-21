@@ -4,7 +4,8 @@
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <HelloWorld2/>
     <contenu/>
-
+    <headerTop/>
+    <headerTop/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@
 import HelloWorld from './components/HelloWorld.vue';
 import HelloWorld2 from './components/HelloWorld2.vue';
 import contenu from './components/contenue.vue';
+import headerTop from './components/headerTop.vue';
 
 
 
@@ -20,7 +22,8 @@ export default {
   components: {
     HelloWorld,
     HelloWorld2,
-    contenu
+    contenu,
+    headerTop
   }
 }
 </script>
