@@ -14,6 +14,8 @@
         </ul>
         <div class="btn btn-danger" v-on:click="removefilm" id="btnremovefilm">X</div>
         <div class="btn btn-danger" v-on:click="changetitreheader">Change titre</div>
+        <slot></slot>
+        <slot name="info"></slot>
     </div>
 </template>
 <script>
